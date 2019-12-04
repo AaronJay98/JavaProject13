@@ -40,15 +40,5 @@ public class Main {
         measurableArr.add(new LargestMeasurable<Integer>(4));
         measurableArr.add(new LargestMeasurable<Integer>(9));
         System.out.println("Largest element is: " + LargestMeasurable.largestElem(measurableArr));
-
-        ArrayList<LargestMeasurable<String>> measurableStrArr = new ArrayList<>();
-        measurableStrArr.add(new LargestMeasurable<String>("hello"));
-        measurableStrArr.add(new LargestMeasurable<String>("ello"));
-        measurableStrArr.add(new LargestMeasurable<String>("alojdj"));
-        measurableStrArr.add(new LargestMeasurable<String>("10"));
-        measurableStrArr.add(new LargestMeasurable<String>("0"));
-        measurableStrArr.add(new LargestMeasurable<String>("4"));
-        measurableStrArr.add(new LargestMeasurable<String>("9"));
-        System.out.println("Largest element is: " + LargestMeasurable.largestElem(measurableStrArr));
     }
 }
