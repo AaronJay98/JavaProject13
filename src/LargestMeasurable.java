@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
-public class LargestMeasurable<T> implements Measurable{
+public class LargestMeasurable<T> {
     private T theObject;
 
-    public double getMeasure() {
-        return theObject.hashCode() ;
+    public T getMeasure() {
+        return theObject;
     }
 
     public LargestMeasurable(T inputObject) {
@@ -18,15 +18,10 @@ public class LargestMeasurable<T> implements Measurable{
         }
         returnObject = arr.get(0);
         for(LargestMeasurable<T> curObject: arr) {
-            if(curObject.getMeasure() > returnObject.getMeasure()) {
+            if(curObject.getMeasure().compareTo(returnObject.getMeasure()) > 0) {
                 returnObject = curObject;
             }
         }
-
-        return returnObject.getObject();
-    }
-
-    public T getObject() {
-        return theObject;
+        return returnObject.getMeasure();
     }
 }

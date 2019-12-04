@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7473133d-bf69-4bb0-9597-e2441f2a368a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LargestMeasurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargestMeasurable.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575406339614</updated>
       <workItem from="1575406343460" duration="13017000" />
+      <workItem from="1575439940822" duration="357000" />
     </task>
     <servers />
   </component>
@@ -79,7 +79,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
