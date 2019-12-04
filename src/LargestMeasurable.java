@@ -4,14 +4,14 @@ public class LargestMeasurable<T> implements Measurable{
     private T theObject;
 
     public double getMeasure() {
-        return theObject.hashCode();
+        return theObject.hashCode() ;
     }
 
     public LargestMeasurable(T inputObject) {
         theObject = inputObject;
     }
 
-    static <T> T largestElem(ArrayList<LargestMeasurable<T>> arr) {
+    static <T extends Comparable<T>> T largestElem(ArrayList<LargestMeasurable<T>> arr) {
         LargestMeasurable<T> returnObject;
         if(arr.isEmpty()) {
             return null;
